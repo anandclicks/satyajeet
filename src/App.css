@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@font-face {
+  font-family: 'MERINGUE';
+  src: url('/assets/MERINGUE.otf');
+}
+* {
+  font-family: 'Lato';
+}
+.primaryColor {
+  color: #00fffb;
+}
+.primaryBg {
+  background-color: #00fffb;
+}
+.primaryBorder {
+  color: #00fffb;
+}
+.mainWrapper{
+  background-image: url('/public/bgTaxture.png');
+  object-fit: cover;
+}
+.start{
+  filter: blur(3px);
+  animation: star 15s linear infinite;
+  
+}
+
+@keyframes star {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.navLinks a {
+  width: 120px;
+}
+.undarlineOVerlay{
+  transform: translateX(50%);
+  animation: animateUndarline 3s  alternate infinite;
+}
+
+
+@keyframes animateUndarline  {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+.overlayTwo {
+  height: 370px;
+  width: 370px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 65px solid #00fffb;
+  border-right-color: transparent;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: -65px;
+  left: -65px;
+  z-index: 99;
+  z-index: 9999;
+}
+.lensBlue2{
+  opacity: 0.6;
+}
+.imgeAero{
+  margin-left: -46px;
+  margin-top: 100px;
+}
+.undarlineOVerlay{
+  margin-bottom: -1px;
+}
+.ct{
+  margin-left: -16px;
+}
+.curveText-creation{
+  font-family: 'MERINGUE';
+}
+.unfogetablePng {
+  margin-top: -90px;
+}
