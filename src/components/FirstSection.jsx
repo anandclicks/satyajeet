@@ -17,11 +17,11 @@ const FirstSection = () => {
         {/* ct  */}
         <div className='text-white mt-16 h-[200px] w-[300px] '>
           {/* circle img  */}
-          <img className='absolute ct' src="public\ct.png" alt="" />
+          <img className='absolute ct' src="/ct.png" alt="" />
           <div className='relative'>
-          <img src="public\circle.png" alt="" />
+          <img src="/circle.png" alt="" />
           <div className='absolute top-28'>
-           <img className='absolute unfogetablePng ms-9' src="public\-Unforgettable.png" alt="" />
+           <img className='absolute unfogetablePng ms-9' src="/-Unforgettable.png" alt="" />
           <h3 className='curveText-creation text-5xl primaryColor '>Creations</h3>
           </div>
           </div>
@@ -36,9 +36,9 @@ const FirstSection = () => {
        <div className="outerCircle h-[400px] w-[400px] border-white border-[1px] rounded-full flex items-center justify-center">
           <div className="innerCircel  h-[370px] w-[370px] rounded-full bg-transparent border-[65px] primaryBorder flex justify-center relative">
             <div className="overlayTwo">
-            <img className='rotate-90 w-[30px] absolute imgeAero' src="public/aero.png" alt="" />
+            <img className='rotate-90 w-[30px] absolute imgeAero' src="/aero.png" alt="" />
             </div>
-            <img className='scall scale-[235%] mb-7' src="public\person.png" alt="" />
+            <img className='scall scale-[235%] mb-7' src="/person.png" alt="" />
           </div>
         </div>
        </div>

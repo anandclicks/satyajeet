@@ -21,10 +21,10 @@ const Navbar = () => {
   ]
   return (
     <div className='h-[100px] w-full flex justify-between items-end px-4'>
-      <img className='absolute mb-7 ms-[350px] w-[140px] start' src="public/start.png" alt="" />
+      <img className='absolute mb-7 ms-[350px] w-[140px] start' src="/start.png" alt="" />
       {/* logo  */}
       <div className="logo h-full flex items-end">
-        <img className='w-[130px]' src="public\Logo.png" alt="" />
+        <img className='w-[130px]' src="/Logo.png" alt="" />
       </div>
       {/* links  */}
       <div className='navLinks h-[40px] w-[500px] border-[1px] border-stone-400 rounded-3xl flex items-center justify-between px-0 bg-black'>
