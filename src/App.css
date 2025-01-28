@@ -18,8 +18,19 @@
 .primaryBorder {
   color: #00fffb;
 }
+.activeBtn{
+  background-color: #00fffb;
+  color: #000;
+  transition: 0.2s;
+}
+.notActive {
+  background-color: #000;
+  color: #fff;
+  transition: 0.2s;
+
+}
 .mainWrapper{
-  background-image: url('/public/bgTaxture.png');
+  background-image: url('/bgTaxture.png');
   object-fit: cover;
 }
 .start{
@@ -78,11 +89,14 @@
   margin-bottom: -1px;
 }
 .ct{
-  margin-left: -16px;
+  margin-left: 2px;
 }
 .curveText-creation{
   font-family: 'MERINGUE';
 }
 .unfogetablePng {
   margin-top: -90px;
+}
+.ct{
+  width: 295px;
 }
