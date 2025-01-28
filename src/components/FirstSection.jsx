@@ -52,7 +52,7 @@ const FirstSection = () => {
                 />
               </div>
               <img
-                className="scall scale-[235%] mb-7"
+                className="scall homePageImage scale-[235%] mb-7"
                 src="/person.png"
                 alt=""
               />
@@ -61,7 +61,7 @@ const FirstSection = () => {
         </div>
       </div>
       {/* curve design  */}
-      <div className="h-[20vh] overflow-hidden absolute bottom-0 start-[270px]">
+      <div className="h-[25vh] overflow-hidden absolute bottom-0 start-[470px]">
         <img className=" " src="/homeCurvedesign.png" alt="" />
       </div>
     </div>

@@ -100,3 +100,30 @@
 .ct{
   width: 295px;
 }
+/* .wrapperOfLensBlur {
+  animation: homeImage 0.6s ease-in-out;
+}
+
+@keyframes homeImage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.homePageImage{
+  animation: homePageImage  0.9s ease-in-out;
+}
+@keyframes homePageImage {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
